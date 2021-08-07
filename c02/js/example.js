@@ -1,9 +1,9 @@
 // Create variables for the welcome message
 var greeting = 'Howdy ';
-var name = 'Molly';
+var Name = 'Molly';
 var message = ', please check your order:';
 // Concatenate the three variables above to create the welcome message
-var welcome = greeting + name + message;
+var welcome = greeting + Name + message;
 
 // Create variables to hold details about the sign
 var sign = 'Montague House';
@@ -37,7 +37,7 @@ elShipping.textContent = '$' + shipping;
 var elGrandTotal = document.getElementById('grandTotal');
 elGrandTotal.textContent = '$' + grandTotal;
 
-/* 
+/*
 NOTE: textContent does not work in IE8 or earlier
 You can use innerHTML instead of textContent, but note the security issues on p228-231
 
