@@ -5,7 +5,7 @@
     },
     "extends": [
         "airbnb",
-        "airbnb/hooks"
+        "prettier"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -15,8 +15,11 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "prettier"
     ],
     "rules": {
+        "prettier/prettier": "error",
+        "no-unused-vars": "warn",
+        "no-console": "off"
     }
 }
